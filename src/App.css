@@ -1,0 +1,108 @@
+/* write your css here */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html , body {
+    overflow-x: hidden ;
+}
+
+.homepage_bg {
+    background: url("../src/assets/Images/bghome.svg");
+}
+
+.codeblock1 {
+    width: 372.95px;
+    height: 257.05px;
+    border-radius: 100%;
+    left: calc(50% - 372.95px / 2 - 76.53px);
+    top: calc(50% - 257.05px / 2 - 47.47px);
+    background: linear-gradient(
+      123.77deg,
+      #8a2be2 -6.46%,
+      #ffa500 59.04%,
+      #f8f8ff 124.53%
+    );
+    opacity: 0.2;
+    filter: blur(34px);
+    transform: matrix(1, 0, -0.03, 1, 0, 0);
+  }
+  .codeblock2 {
+    position: absolute;
+    width: 372.95px;
+    height: 257.05px;
+    left: calc(50% - 372.95px / 2 - 76.53px);
+    top: calc(50% - 257.05px / 2 - 47.47px);
+    border-radius: 100%;
+    background: linear-gradient(
+      118.19deg,
+      #1fa2ff -3.62%,
+      #12d8fa 50.44%,
+      #a6ffcb 104.51%
+    );
+    opacity: 0.2;
+    filter: blur(34px);
+    transform: matrix(1, 0, -0.03, 1, 0, 0);
+}
+
+/* Container styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Label styling */
+.lable-style {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff; /* White text color */
+}
+
+/* Input container styling with shadows */
+.input-container {
+  position: relative;
+}
+
+/* Input styling */
+.form-style {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  background-color: #eee; /* Light gray background */
+  color: #333; /* Text color */
+}
+
+/* Error message styling */
+.text-yellow-100 {
+  color: #fbbf24; /* Yellow error text color */
+  font-size: 0.75rem;
+  margin-top: -0.25rem;
+}
+
+/* Button styling */
+button {
+  background-color: #fbbf24;
+  color: #333;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+button:disabled {
+  background-color: #666;
+  cursor: not-allowed;
+}
+
+button:hover {
+  background-color: #f0c24c;
+  transform: scale(1.05);
+  box-shadow: 2px 2px 0px 0px rgba(255, 255, 255, 0.18);
+}
