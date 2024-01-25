@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useRef, useState } from "react"
 import { AiOutlineCaretDown } from "react-icons/ai"
 import { VscDashboard, VscSignOut } from "react-icons/vsc"
@@ -53,6 +54,13 @@ const ProfileDropDown = () => {
         </div>
       )}
     </button>
+=======
+import React from 'react'
+
+const ProfileDropDown = () => {
+  return (
+    <div>ProfileDropDown</div>
+>>>>>>> origin/main
   )
 }
 
